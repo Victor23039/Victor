@@ -1,0 +1,189 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": [],
+      "authorship_tag": "ABX9TyOMnACW1T/Cm5LxVyeYQG75",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/Victor23039/Victor/blob/main/Homework16.08.2024\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "Function:         center()"
+      ],
+      "metadata": {
+        "id": "7GiTe04yLWKm"
+      }
+    },
+    {
+      "cell_type": "code",
+      "execution_count": 6,
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "brEzq8R-J532",
+        "outputId": "5d8412c3-780d-4eb8-dbd5-3905698e6a93"
+      },
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "-----------I love this course-----------\n"
+          ]
+        }
+      ],
+      "source": [
+        "text = \"I love this course\"\n",
+        "c_text = text.center(40, '-')\n",
+        "print(c_text)"
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "Function: isnumeric()"
+      ],
+      "metadata": {
+        "id": "RqBZEh6NMSMB"
+      }
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "nText = \"888\"\n",
+        "print(nText.isnumeric())"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "UXEB-kXMLxde",
+        "outputId": "c27b3ae0-f282-46a5-f9e6-dce71028cdd9"
+      },
+      "execution_count": 9,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "True\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "sText = \"Hello World\"\n",
+        "print(sText.isnumeric())"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "8Sd5bKq0NX4i",
+        "outputId": "9652b805-2f09-46d9-ea93-9e5b5011aa0c"
+      },
+      "execution_count": 10,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "False\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "Function: zfill()"
+      ],
+      "metadata": {
+        "id": "zp5MYboqNyNq"
+      }
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "numbers = \"12345\"\n",
+        "numbersWithO = numbers.zfill(6)\n",
+        "print(numbersWithO)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "BIGNG--MOMO0",
+        "outputId": "3ac22d79-232a-42e8-e13d-2b2557d57a13"
+      },
+      "execution_count": 11,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "012345\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "Function: endswith()"
+      ],
+      "metadata": {
+        "id": "l9skeGXUO1s0"
+      }
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "text = \"Interesting function\"\n",
+        "realWord = text.endswith(\"function\")\n",
+        "print(realWord)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "P4shKIWHPhT7",
+        "outputId": "cde0fa0e-de53-41b6-9bf7-4b9d4990d348"
+      },
+      "execution_count": 12,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "True\n"
+          ]
+        }
+      ]
+    }
+  ]
+}
